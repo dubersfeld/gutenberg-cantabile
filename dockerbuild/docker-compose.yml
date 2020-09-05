@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+
+  elastic-books:
+    image: elasticsearch:7.7.1
+    container_name: elastic-books
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - gutenberg:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
+      - 9300:9300
+    networks:
+      - gutenbergnet
+
+  config-server:
+    image: gutenberg/config-server
+    # edit to match your own filesystem
+    volumes:
+      - type: bind
+        source: /home/dominique/Documents/workspace-marathon3/config-repo
+        target: /tmp/config-repo
+    ports:
+      - "8888:8888"
+    environment:
+      - EUREKASERVER_URI=http://eurekaserver:8761/eureka/
+      - EUREKASERVER_HOST=eurekaserver
+      - EUREKASERVER_PORT=8761
+    networks:
+      - gutenbergnet
+
+  eurekaserver:
+    image: gutenberg/eureka-server
+    ports:
+      - "8761:8761"
+    networks:
+      - gutenbergnet
+
+ 
+volumes:
+  gutenberg:
+    external:
+      name: gutenberg
+  
+networks:
+  gutenbergnet:
+    external: true
+      
+

@@ -1,0 +1,349 @@
+{
+  "took" : 47,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 22,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "1",
+          "text" : "The most comprehensive source for everything CHEVAL HareFAQ.",
+          "rating" : 5.0,
+          "userId" : "6",
+          "helpfulVotes" : 10,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "2",
+          "text" : "Malware for beginners is a great primer on malware and what you can do to protect yourself and your organisation from it.",
+          "rating" : 4.0,
+          "userId" : "7",
+          "helpfulVotes" : 9,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "3",
+          "text" : "Nivü Nikkonü has assembled a comprehensive reference manual for Emerald. It is a treasure map that everyone will want to use.",
+          "rating" : 5.0,
+          "userId" : "8",
+          "helpfulVotes" : 8,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "5",
+          "text" : "A thorough manual for learning, practicing, and implementing TangoDB.",
+          "rating" : 5.0,
+          "userId" : "10",
+          "helpfulVotes" : 6,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "6",
+          "text" : "I recommend this book to all history of science majors.",
+          "rating" : 3.0,
+          "userId" : "6",
+          "helpfulVotes" : 10,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "7",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "9",
+          "text" : "Thanks to this book I don't need sleeping pills anymore. It is so boring that I fall asleep after reading two pages.",
+          "rating" : 2.0,
+          "userId" : "7",
+          "helpfulVotes" : 9,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "9",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "7",
+          "text" : "This is the long awaited biography of the most controversial scientist of XXth century.",
+          "rating" : 5.0,
+          "userId" : "9",
+          "helpfulVotes" : 7,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "10",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "7",
+          "text" : "This book left me deeply frustrated. After thoroughly reading it twice, I still don't know which cat breed the Schroedinger Cat was!",
+          "rating" : 1.0,
+          "userId" : "8",
+          "helpfulVotes" : 6,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "11",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "7",
+          "text" : "I was really surprised that Heisenberg chose such a desolate place as Helgoland for his spring break.",
+          "rating" : 2.0,
+          "userId" : "7",
+          "helpfulVotes" : 10,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "16",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "14",
+          "text" : "Really entertaining book. Now I hope that one of Hollywood Eight will adapt it into a movie!",
+          "rating" : 5.0,
+          "userId" : "9",
+          "helpfulVotes" : 10,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "18",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "15",
+          "text" : "After reading this book I feel like a privileged citizen!",
+          "rating" : 4.0,
+          "userId" : "6",
+          "helpfulVotes" : 9,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "19",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "15",
+          "text" : "After reading this book I prefer gorillas to my neighbors!",
+          "rating" : 4.0,
+          "userId" : "7",
+          "helpfulVotes" : 9,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "N_LR-HMBQKsvvj4UZ4pd",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "_class" : "com.dub.gutenberg.domain.Review",
+          "bookId" : "5",
+          "text" : "LOREM IPSUM AD PATRES",
+          "rating" : 0,
+          "userId" : "4",
+          "helpfulVotes" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "4",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "4",
+          "text" : "Donkey is fast becoming THE framework for microservices--This book shows you why and how.",
+          "rating" : 4.0,
+          "userId" : "9",
+          "helpfulVotes" : 7,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "8",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "10",
+          "text" : "I was surprised to read that Nostradamus was a doctor. Moreover this book gives many interesting details about everyday life in France in XVIth century.",
+          "rating" : 4.0,
+          "userId" : "8",
+          "helpfulVotes" : 8,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "12",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "8",
+          "text" : "I had a dinner in a Bateau-Mouche during my honeymoon in Paris a long time ago. Reading this book made me feel young again!",
+          "rating" : 5.0,
+          "userId" : "10",
+          "helpfulVotes" : 9,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "13",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "11",
+          "text" : "Bedlam at his best. This is really a page-turner.",
+          "rating" : 5.0,
+          "userId" : "6",
+          "helpfulVotes" : 8,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "14",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "12",
+          "text" : "An incredible exploration of the effect of virtual reality on human behavior.",
+          "rating" : 5.0,
+          "userId" : "6",
+          "helpfulVotes" : 7,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "15",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "13",
+          "text" : "This book shows that philosophy is not an abstract concept. It is the very foundation of social interactions.",
+          "rating" : 4.0,
+          "userId" : "8",
+          "helpfulVotes" : 6,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "17",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "bookId" : "15",
+          "text" : "Reading this book made me think of some novels by John Steinbeck. Here the gorillas are more human than some human characters!",
+          "rating" : 4.0,
+          "userId" : "10",
+          "helpfulVotes" : 9,
+          "voterIds" : [ ]
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "OvLV-HMBQKsvvj4UNIr7",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "_class" : "com.dub.gutenberg.domain.Review",
+          "bookId" : "5",
+          "text" : "LOREM IPSUM AD LIBITUM",
+          "rating" : 0,
+          "userId" : "4",
+          "helpfulVotes" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-reviews",
+        "_type" : "_doc",
+        "_id" : "O_LX-HMBQKsvvj4ULIrE",
+        "_version" : 1,
+        "_score" : 1.0,
+        "_source" : {
+          "_class" : "com.dub.gutenberg.domain.Review",
+          "bookId" : "5",
+          "text" : "LOREM IPSUM AD HOMINEM",
+          "rating" : 0,
+          "userId" : "4",
+          "helpfulVotes" : 0
+        }
+      }
+    ]
+  }
+}

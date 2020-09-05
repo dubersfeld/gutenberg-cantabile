@@ -1,0 +1,790 @@
+{
+  "took" : 2,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 2,
+    "successful" : 2,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 29,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "2",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 4400,
+          "date" : "2017-01-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "8",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "1",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 6600,
+          "date" : "2017-02-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "9",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "2",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 7700,
+          "date" : "2017-03-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "6",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "5",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 9900,
+          "date" : "2017-05-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "15",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 2200,
+          "date" : "2017-06-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "7",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "9",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 3300,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "9",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "4",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "3",
+              "quantity" : 1
+            },
+            {
+              "bookId" : "15",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 5500,
+          "date" : "2017-09-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "10",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "8",
+              "quantity" : 1
+            },
+            {
+              "bookId" : "3",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 6600,
+          "date" : "2017-10-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "11",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "10",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "12",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 7700,
+          "date" : "2017-11-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "16",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "42",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 3300,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "18",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "43",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "5",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 9900,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "19",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "44",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 3300,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "21",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "5",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 4400,
+          "date" : "2017-01-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "22",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "5",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "23",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "5",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "8",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "26",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "9",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "7",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "4",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "10",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "3",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "8",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "7",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "7",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 4400,
+          "date" : "2017-08-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "12",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "10",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-12-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "13",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "4",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 9900,
+          "date" : "2017-08-14T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "14",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "6",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 2200,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "15",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "6",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 3300,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "17",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "43",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 3300,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "20",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "44",
+          "state" : "SHIPPED",
+          "lineItems" : [
+            {
+              "bookId" : "14",
+              "quantity" : 1
+            },
+            {
+              "bookId" : "5",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 9900,
+          "date" : "2017-07-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "24",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "3",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "8",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "25",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "9",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "8",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "27",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "9",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "7",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "28",
+        "_score" : 1.0,
+        "_source" : {
+          "userId" : "9",
+          "state" : "CART",
+          "lineItems" : [
+            {
+              "bookId" : "7",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "",
+            "city" : "",
+            "zip" : "",
+            "state" : "",
+            "country" : ""
+          },
+          "paymentMethod" : { },
+          "subtotal" : 8800,
+          "date" : "2017-04-24T00:00:00.000"
+        }
+      },
+      {
+        "_index" : "gutenberg-orders",
+        "_type" : "_doc",
+        "_id" : "PoRGTnQBApikITdXD_BD",
+        "_score" : 1.0,
+        "_source" : {
+          "_class" : "com.dub.gutenberg.domain.Order",
+          "id" : "PoRGTnQBApikITdXD_BD",
+          "userId" : "4",
+          "state" : "PRE_SHIPPING",
+          "lineItems" : [
+            {
+              "bookId" : "6",
+              "quantity" : 1
+            }
+          ],
+          "shippingAddress" : {
+            "street" : "10 Downing Street",
+            "city" : "London",
+            "zip" : "SW1A 2AA",
+            "state" : "",
+            "country" : "United Kingdom"
+          },
+          "paymentMethod" : {
+            "cardNumber" : "1111222255558888",
+            "name" : "Jeff Bezos"
+          },
+          "subtotal" : 4439,
+          "date" : "2020-09-02T12:04:12.468"
+        }
+      }
+    ]
+  }
+}

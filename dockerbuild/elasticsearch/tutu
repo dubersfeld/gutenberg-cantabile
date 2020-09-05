@@ -1,0 +1,327 @@
+{
+  "took" : 30,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 3,
+    "successful" : 3,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 10,
+      "relation" : "eq"
+    },
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "5",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Richard",
+          "hashedPassword" : "{bcrypt}$2a$10$LBMYa2KlGqKyjUg6UPSx8.SqV99/mWTryFwl1sY4.x0UKKqnab9ru",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "addresses" : [
+            {
+              "street" : "Avenue de la Gare 55",
+              "city" : "Lausanne",
+              "zip" : "1022",
+              "state" : "",
+              "country" : "CH"
+            }
+          ],
+          "paymentMethods" : [
+            {
+              "cardNumber" : "9876123498761234",
+              "name" : "Richard Brunner"
+            },
+            {
+              "cardNumber" : "9876123498761235",
+              "name" : "Richard Brenner"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "7",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Arepo",
+          "hashedPassword" : "{bcrypt}$2a$10$5YYBC/bq85.z8.cUbDzi5euUotdU1kHgqsuDGAiDNByiXMG3zEoMi",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "2",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Albert",
+          "hashedPassword" : "{bcrypt}$2a$10$2amyAvl.aoVidnbd/8AUWOl7LDqkcWHZF/z29WFd6jQ6ZR78sffCi",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "addresses" : [
+            {
+              "street" : "Plumber Street 22",
+              "city" : "London",
+              "zip" : "WC2N 5DU",
+              "state" : "",
+              "country" : "UK"
+            }
+          ],
+          "paymentMethods" : [
+            {
+              "cardNumber" : "1357246813572468",
+              "name" : "Albert Degroot"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Werner",
+          "hashedPassword" : "{bcrypt}$2a$10$4D/68H.9Yesn32FldAQs2OVpF2AFsjosjxIiNx0hDX./3FOvYmZGa",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "addresses" : [
+            {
+              "street" : "Hannoverstr. 22",
+              "city" : "Berlin",
+              "zip" : "10315",
+              "state" : "",
+              "country" : "DE"
+            }
+          ],
+          "paymentMethods" : [
+            {
+              "cardNumber" : "4321987643219876",
+              "name" : "Werner Stolz"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "10",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Rotas",
+          "hashedPassword" : "{bcrypt}$2a$10$zICb16aMAVQyJ6180HUpDuvQAbZX.yGPmjUC7FSD7otSRSoBdbnjG",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "4",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Alice",
+          "hashedPassword" : "{bcrypt}$2a$10$Ip8KBSorI9R39m.KQBk3nu/WhjekgPSmfmpnmnf5yCL3aL9y.ITVW",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "addresses" : [
+            {
+              "zip" : "75018",
+              "country" : "FR",
+              "city" : "Paris",
+              "street" : "42 rue Amélie Poulain",
+              "state" : ""
+            },
+            {
+              "zip" : "75018",
+              "country" : "FR",
+              "city" : "Paris",
+              "street" : "42 rue Amélie Nothomb",
+              "state" : ""
+            },
+            {
+              "zip" : "SW1A666",
+              "country" : "UK",
+              "city" : "London",
+              "street" : "10 Downing Street",
+              "state" : ""
+            }
+          ],
+          "paymentMethods" : [
+            {
+              "name" : "Alice Carrol",
+              "cardNumber" : "6789432167894321"
+            },
+            {
+              "name" : "Alice Carrol",
+              "cardNumber" : "6789432167891234"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0,
+          "id" : "4"
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "1",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Carol",
+          "hashedPassword" : "{bcrypt}$2a$10$IbWmP8ViaXfNcaKbSfEkyOKDWGzIgLJ90oJ43nphlYEYzomlhOaSm",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "addresses" : [
+            {
+              "street" : "Main Street 2233",
+              "city" : "Dallas",
+              "zip" : "75215",
+              "state" : "TX",
+              "country" : "USA"
+            }
+          ],
+          "paymentMethods" : [
+            {
+              "cardNumber" : "1234567813572468",
+              "name" : "Carol Baker"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "6",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Sator",
+          "hashedPassword" : "{bcrypt}$2a$10$bMiqHtOacryfa90U9ddokelGe3xlEmVVuZ1UDre3ArINmspjjsIGC",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "8",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Tenet",
+          "hashedPassword" : "{bcrypt}$2a$10$Dr0/hk5Zy8xilHh.fdoc.OTsT/sDMraT1i4IMVpW39pzbu2w6ZVMC",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      },
+      {
+        "_index" : "gutenberg-users",
+        "_type" : "_doc",
+        "_id" : "9",
+        "_score" : 1.0,
+        "_source" : {
+          "username" : "Opera",
+          "hashedPassword" : "{bcrypt}$2a$10$VwntQlZvYt4g7e3M7QadG.91SkLd/MW1vrhab2Qj.0VkTdGcjVrnm",
+          "accountNonExpired" : true,
+          "accountNonLocked" : true,
+          "credentialsNonExpired" : true,
+          "enabled" : true,
+          "authorities" : [
+            {
+              "authority" : "ROLE_USER"
+            }
+          ],
+          "mainPayMeth" : 0,
+          "mainShippingAddress" : 0
+        }
+      }
+    ]
+  }
+}
